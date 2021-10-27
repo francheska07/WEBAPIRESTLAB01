@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{60B398A3-631
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotels", "src\hotels\hotels.csproj", "{396CD3D7-5718-447B-9884-7EB5CEC50A22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotels.UnitTest", "src\hotels.UnitTest\hotels.UnitTest.csproj", "{66FBDF04-036E-438A-8E95-9D9600CAB608}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{396CD3D7-5718-447B-9884-7EB5CEC50A22}.Release|x64.Build.0 = Release|Any CPU
 		{396CD3D7-5718-447B-9884-7EB5CEC50A22}.Release|x86.ActiveCfg = Release|Any CPU
 		{396CD3D7-5718-447B-9884-7EB5CEC50A22}.Release|x86.Build.0 = Release|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Debug|x64.Build.0 = Debug|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Debug|x86.Build.0 = Debug|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Release|x64.ActiveCfg = Release|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Release|x64.Build.0 = Release|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Release|x86.ActiveCfg = Release|Any CPU
+		{66FBDF04-036E-438A-8E95-9D9600CAB608}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{396CD3D7-5718-447B-9884-7EB5CEC50A22} = {60B398A3-6317-44EF-A915-7E7CE354A816}
+		{66FBDF04-036E-438A-8E95-9D9600CAB608} = {60B398A3-6317-44EF-A915-7E7CE354A816}
 	EndGlobalSection
 EndGlobal
